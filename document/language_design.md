@@ -73,9 +73,24 @@ receiving
 
 分支控制：break,continue
 
-函数与组合：return,struct,union
+函数与组合：return,struct
 
 全局修饰：static
 
 其他：void,enum
 
+#### 2.symbol table
+
+分隔：;
+
+数组：[]
+
+表达式：()
+
+代码块：{}
+
+取地址：&
+
+解引用/指针：*
+
+运算符：+	-	*	/	%	&& 	||	!	&	|	^	<<	>>
