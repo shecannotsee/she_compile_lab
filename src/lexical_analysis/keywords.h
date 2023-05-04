@@ -9,14 +9,14 @@
 #include <unordered_map>
 
 enum class KEYWORDS {
-  BOOL, CHAR, DOUBLE, FLOAT,  INT,
-  CONST, UNSIGNED,
-  IF,ELSE,SWITCH,CASE,DEFAULT,
-  DO,WHILE,FOR,GOTO,
-  BREAK,CONTINUE,
-  RETURN,STRUCT,
+  BOOL,   CHAR,     DOUBLE, FLOAT,  INT,
+  CONST,  UNSIGNED,
+  IF,     ELSE,     SWITCH, CASE,   DEFAULT,
+  DO,     WHILE,    FOR,    GOTO,
+  BREAK,  CONTINUE,
+  RETURN, STRUCT,
   STATIC,
-  VOID,ENUM
+  VOID,   ENUM
 };
 static std::unordered_map<std::string,KEYWORDS> keywords = {
     {"bool",    KEYWORDS::BOOL},
